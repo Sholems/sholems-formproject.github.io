@@ -1,0 +1,55 @@
+body{
+  background: lightblue;
+
+}
+
+#container{
+  background-color: rgb(250, 250, 250);
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 80%;
+    max-width: 900px;
+    padding: 10px;
+    padding-top: 10px;
+}
+#title{
+  text-align: center;
+  color: navy;
+  font-family: monospace;
+  font-size: 50px;
+}
+#description{
+  text-align: center;
+  font-weight: bold;
+}
+#number{
+  width: 50%;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  display:inline-block;margin:0 10px 10px 0;vertical-align:top;
+}
+#email{
+  width: 50%;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  display:inline-block;margin:0 10px 10px 0;vertical-align:top;
+}
+#name{
+  width: 50%;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  display:inline-block;margin:0 10px 10px 0;vertical-align:top;
+}
+#dropdown{
+  width: 50%;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  text-align: left;
+}
+
+#comments{
+  height:300px;
+  width: 400px;
+  font-size:14pt;
+  display:inline-block;margin:0 10px 10px 0;vertical-align:top;
+}

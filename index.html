@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- load neccessary requirement //-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- web title //-->
+	<title>Restaurant Evaluation Survey</title>
+
+	<!-- scripts //-->
+	<script type="text/javascript" src="js/team.js"></script>
+
+	<!-- styles //-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1 id="title">Restaurant Evaluation Survey</h1>
+  <div id="container">
+			<p id="description">Please let us know how was the food and service.</p>
+			<form id="survey-form">
+				<div class="label">
+					<label id="name-label" for="name">Full Name</label><br>
+				</div>
+				<div class="namefield">
+					<input type="text" autofocus name="name" id="name" class="input" placeholder="enter your full name" required>
+				</div>
+				<div class="label">
+					<label id="email-label" for="email">Email</label>
+				</div>
+				<div class="mailfield">
+					<input type="email" name="email" id="email" class="input" placeholder="enter your email" required>
+				</div>
+				<div class="label">
+					<label id="number-label" for="number">Number</label>
+				</div>
+				<div class="mailfield">
+					<input type="number" name="number" id="number" class="input" min="11" max="20" placeholder="enter your number"  required>
+				</div>
+
+				<div class="label">
+					<label id="dropdown" for="option">Food Quality:</label>
+				</div>
+				<div>
+					<select  id="dropdown" name="quality">
+  					<option value="volvo">Excellent</option>
+  					<option value="saab">Good</option>
+  					<option value="fiat">Average</option>
+  					<option value="audi">Dissatisfied</option>
+					</select>
+				</div>
+
+				<div class="label">
+					<label id="radio-butttons" for="option">*Overall Service Quality:</label>
+				</div>
+				<div>
+					<input type="radio" name="radio-buttons" value="excellent">Excellent<br>
+ 					<input type="radio" name="radio-buttons" value="good">Good<br>
+ 					<input type="radio" name="radio-buttons" value="average">Average<br>
+					<input type="radio" name="radio-buttons" value="Dissatisfied">Dissatisfied
+				</div>
+
+				<div class="label">
+					<label id="radio-butttons" for="option">*Select menus that you enjoy:</label>
+				</div>
+				<div>
+					<input type="checkbox" name="foodtype1" value="Rice"> I enjoy your Rice<br>
+					<input type="checkbox" name="foodtype2" value="Beans"> I enjoy your Beans<br>
+					<input type="checkbox" name="foodtype3" value="Bread"> I enjoy your Bread<br>
+					<input type="checkbox" name="foodtype4" value="Plantain"> I enjoy Plantain<br>
+					<input type="checkbox" name="foodtype5" value="Meat"> I enjoy your Meat<br>
+				</div>
+				<div>
+				<label for="comments">Any comments, questions or suggestions?</label>
+				</div>
+				<div class="label">
+					<textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+				</div>
+
+						<input id="submit" type="submit">
+
+				</div>
+			</form>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
